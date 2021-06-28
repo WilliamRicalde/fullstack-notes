@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-notes",
+  "version": "1.0.0",
+  "description": "fulltack notes app",
+  "workspaces": [
+    "app",
+    "api",
+    "packages/a"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
