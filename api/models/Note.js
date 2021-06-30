@@ -5,11 +5,11 @@ const noteSchema = new Schema({
   content: {
     type: String,
     required: true
-  },
-  userId: {
-    type: Schema.Types.ObjectId,
-    ref: 'User'
   }
+  // userId: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: 'User'
+  // }
 })
 
 noteSchema.set('toJSON', {
